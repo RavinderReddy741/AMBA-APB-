@@ -1,0 +1,88 @@
+simSetSimulator "-vcssv" -exec "./simv" -args " " -uvmDebug on
+debImport "-i" "-simflow" "-dbdir" "./simv.daidir"
+srcTBInvokeSim
+verdiSetActWin -dock widgetDock_<Member>
+verdiSetActWin -dock widgetDock_MTB_SOURCE_TAB_1
+srcTBRunSim
+srcHBSelect "apb_ms_tb.dut" -win $_nTrace1
+srcSetScope "apb_ms_tb.dut" -delim "." -win $_nTrace1
+srcHBSelect "apb_ms_tb.dut" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect "apb_ms_tb.dut.APB_Master" -win $_nTrace1
+srcSetScope "apb_ms_tb.dut.APB_Master" -delim "." -win $_nTrace1
+srcHBSelect "apb_ms_tb.dut.APB_Master" -win $_nTrace1
+srcSignalView -on
+verdiSetActWin -dock widgetDock_<Signal_List>
+srcSignalViewSelect "apb_ms_tb.dut.APB_Master.pTRANSFER"
+srcSignalViewSelect "apb_ms_tb.dut.APB_Master.pTRANSFER" \
+           "apb_ms_tb.dut.APB_Master.pCLK"
+srcSignalViewSelect "apb_ms_tb.dut.APB_Master.pTRANSFER" \
+           "apb_ms_tb.dut.APB_Master.pCLK" "apb_ms_tb.dut.APB_Master.pRESET"
+srcSignalViewSelect "apb_ms_tb.dut.APB_Master.pTRANSFER" \
+           "apb_ms_tb.dut.APB_Master.pCLK" "apb_ms_tb.dut.APB_Master.pRESET" \
+           "apb_ms_tb.dut.APB_Master.pSELx"
+srcSignalViewSelect "apb_ms_tb.dut.APB_Master.pTRANSFER" \
+           "apb_ms_tb.dut.APB_Master.pCLK" "apb_ms_tb.dut.APB_Master.pRESET" \
+           "apb_ms_tb.dut.APB_Master.pSELx" "apb_ms_tb.dut.APB_Master.pENABLE"
+srcSignalViewSelect "apb_ms_tb.dut.APB_Master.pTRANSFER" \
+           "apb_ms_tb.dut.APB_Master.pCLK" "apb_ms_tb.dut.APB_Master.pRESET" \
+           "apb_ms_tb.dut.APB_Master.pSELx" "apb_ms_tb.dut.APB_Master.pENABLE" \
+           "apb_ms_tb.dut.APB_Master.next_state\[1:0\]"
+srcSignalViewSelect "apb_ms_tb.dut.APB_Master.pTRANSFER" \
+           "apb_ms_tb.dut.APB_Master.pCLK" "apb_ms_tb.dut.APB_Master.pRESET" \
+           "apb_ms_tb.dut.APB_Master.pSELx" "apb_ms_tb.dut.APB_Master.pENABLE" \
+           "apb_ms_tb.dut.APB_Master.next_state\[1:0\]" \
+           "apb_ms_tb.dut.APB_Master.state\[1:0\]"
+wvCreateWindow
+srcSignalViewAddSelectedToWave -clipboard
+wvDrop -win $_nWave3
+verdiSetActWin -win $_nWave3
+srcHBSelect "apb_ms_tb.dut.slave" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Inst._Tree>
+srcHBSelect "apb_ms_tb.dut.slave" -win $_nTrace1
+srcSetScope "apb_ms_tb.dut.slave" -delim "." -win $_nTrace1
+srcHBSelect "apb_ms_tb.dut.slave" -win $_nTrace1
+verdiSetActWin -dock widgetDock_<Signal_List>
+srcSignalViewSelect "apb_ms_tb.dut.slave.pREADY"
+srcSignalViewSelect "apb_ms_tb.dut.slave.pREADY" \
+           "apb_ms_tb.dut.slave.next_state\[1:0\]"
+srcSignalViewSelect "apb_ms_tb.dut.slave.pREADY" \
+           "apb_ms_tb.dut.slave.next_state\[1:0\]" \
+           "apb_ms_tb.dut.slave.state\[1:0\]"
+wvSetPosition -win $_nWave3 {("G1" 0)}
+wvSetPosition -win $_nWave3 {("G1" 1)}
+wvSetPosition -win $_nWave3 {("G1" 2)}
+wvSetPosition -win $_nWave3 {("G1" 0)}
+wvSetPosition -win $_nWave3 {("G1" 6)}
+wvSetPosition -win $_nWave3 {("G1" 7)}
+wvSetPosition -win $_nWave3 {("G2" 0)}
+wvAddSignal -win $_nWave3 "/apb_ms_tb/dut/slave/pREADY" \
+           "/apb_ms_tb/dut/slave/next_state\[1:0\]" \
+           "/apb_ms_tb/dut/slave/state\[1:0\]"
+wvSetPosition -win $_nWave3 {("G2" 0)}
+wvSetPosition -win $_nWave3 {("G2" 3)}
+wvSetPosition -win $_nWave3 {("G2" 3)}
+srcSignalView -off
+verdiDockWidgetMaximize -dock windowDock_nWave_3
+verdiSetActWin -win $_nWave3
+wvSetPosition -win $_nWave3 {("G2" 1)}
+wvSetPosition -win $_nWave3 {("G2" 2)}
+wvSetPosition -win $_nWave3 {("G2" 3)}
+wvSetPosition -win $_nWave3 {("G3" 0)}
+wvSetPosition -win $_nWave3 {("G2" 3)}
+wvMoveSelected -win $_nWave3
+wvSetPosition -win $_nWave3 {("G2" 3)}
+wvSelectGroup -win $_nWave3 {G3}
+wvSelectSignal -win $_nWave3 {( "G2" 1 2 3 )} 
+wvSelectSignal -win $_nWave3 {( "G2" 1 )} 
+wvSetPosition -win $_nWave3 {("G2" 1)}
+wvSetPosition -win $_nWave3 {("G2" 2)}
+wvSetPosition -win $_nWave3 {("G2" 3)}
+wvMoveSelected -win $_nWave3
+wvSetPosition -win $_nWave3 {("G2" 3)}
+wvZoomAll -win $_nWave3
+wvZoom -win $_nWave3 404.157676 477.546921
+wvZoomOut -win $_nWave3
+wvZoomOut -win $_nWave3
+wvSetCursor -win $_nWave3 420.356776 -snap {("G1" 5)}
+debExit

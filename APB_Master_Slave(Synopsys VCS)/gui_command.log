@@ -1,0 +1,45 @@
+read_file -type verilog {APB_MAS.v APB_MS.v APB_SLA.v}
+# Started at 15:01:15, Completed at 15:01:16 (Elapsed time = 00:00:01.379)
+
+current_goal lint/lint_rtl -alltop
+# Started at 15:01:24, Completed at 15:01:26 (Elapsed time = 00:00:02.279)
+
+run_goal
+# Started at 15:01:26, Completed at 15:01:37 (Elapsed time = 00:00:11.429)
+
+current_goal lint/lint_rtl_enhanced -alltop
+# Started at 15:01:37, Completed at 15:01:40 (Elapsed time = 00:00:02.769)
+
+run_goal
+# Started at 15:01:40, Completed at 15:01:46 (Elapsed time = 00:00:06.900)
+
+current_goal lint/lint_turbo_rtl -alltop
+# Started at 15:01:46, Completed at 15:01:48 (Elapsed time = 00:00:02.679)
+
+run_goal
+# Started at 15:01:49, Completed at 15:01:58 (Elapsed time = 00:00:10.570)
+
+current_goal lint/lint_functional_rtl -alltop
+# Started at 15:01:58, Completed at 15:02:00 (Elapsed time = 00:00:02.030)
+
+run_goal
+# Started at 15:02:00, Completed at 15:02:05 (Elapsed time = 00:00:05.570)
+
+current_goal lint/lint_abstract -alltop
+# Started at 15:02:05, Completed at 15:02:07 (Elapsed time = 00:00:01.159)
+
+run_goal
+# Started at 15:02:07, Completed at 15:02:16 (Elapsed time = 00:00:10.259)
+
+current_goal lint/lint_rtl -alltop
+# Started at 15:02:16, Completed at 15:02:19 (Elapsed time = 00:00:02.799)
+
+gui_select_message -rule LatchFeedback -msg {Potential feedback race for the latch with output APB_ms.slave.memory[1023:1021, 991:989, 959:956, 927:924, 895:892, 863:860, 831:828, 799:796, 767:764, 735:732, 703:700, 671:668, 639:636, 607:604, 575:572, 543:540, 511:508, 479:476, 447:444, 415:412, 383:380, 351:348, 319:316, 287:284, 255:252, 223:220, 191:188, 159:156, 127:124, 95:92, 63:60, 31:29]}
+# Started at 15:02:54, Completed at 15:02:54 (Elapsed time = 00:00:00.000)
+
+gui_select_message -rule LatchFeedback -msg {Potential feedback race for the latch with output APB_ms.slave.memory[1023:1021, 991:989, 959:956, 927:924, 895:892, 863:860, 831:828, 799:796, 767:764, 735:732, 703:700, 671:668, 639:636, 607:604, 575:572, 543:540, 511:508, 479:476, 447:444, 415:412, 383:380, 351:348, 319:316, 287:284, 255:252, 223:220, 191:188, 159:156, 127:124, 95:92, 63:60, 31:29]}
+# Started at 15:03:03, Completed at 15:03:03 (Elapsed time = 00:00:00.000)
+
+gui_select_message -rule LatchFeedback -msg {Potential feedback race for the latch with output APB_ms.slave.memory[1023:1021, 991:989, 959:956, 927:924, 895:892, 863:860, 831:828, 799:796, 767:764, 735:732, 703:700, 671:668, 639:636, 607:604, 575:572, 543:540, 511:508, 479:476, 447:444, 415:412, 383:380, 351:348, 319:316, 287:284, 255:252, 223:220, 191:188, 159:156, 127:124, 95:92, 63:60, 31:29]}
+# Started at 15:08:46, Completed at 15:08:46 (Elapsed time = 00:00:00.009)
+

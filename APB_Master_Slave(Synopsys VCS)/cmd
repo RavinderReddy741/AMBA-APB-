@@ -1,0 +1,8 @@
+gui_start
+set_app_var link_path lsi_10k.db
+set_app_var target_library lsi_10k.db
+read_file -format verilog {/home/rdonapat/Verilog_Codes/Projects/APB_Master_Slave/APB_MS.v /home/rdonapat/Verilog_Codes/Projects/APB_Master_Slave/APB_MAS.v /home/rdonapat/Verilog_Codes/Projects/APB_Master_Slave/APB_SLA.v}
+compile -exact_map
+write -format verilog -output netlist1.v -hierarchy
+write_sdf cnt.sdf
+create_clock -name myclk -period 10 [get_ports pCLK]

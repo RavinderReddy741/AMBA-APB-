@@ -1,0 +1,48 @@
+version: (200506)
+
+available memory: 64M bytes
+used memory: 294912 bytes [need 288K bytes if disable swap]
+
+used block: 8 [memory(8) file(0)]
+                 [ 8K(4) 64K(4) { total 288K bytes } ]
+overhead: (9514) bytes for (8) blocks [Average: (1189) bytes/block]
+
+write  => 0(times) 0K(bytes) [0K bytes to file]
+read   => 4(times) 27K(bytes) [4K bytes compressed data from file]
+access => 116260(times) 915M(bytes)
+          [hit ratio: 99.9966%]
+
+time: write(0) read(0)  unit: second
+
+swap file directory: (/home/rdonapat/Verilog_Codes/Projects/APB_Master_Mealy/verdiLog)
+used swap file number: (5)
+
+
+
+swap file manager:
+arrSize: (256)
+idxCnt: (6)
+closeHead: (1)
+closeTail: (5)
+openCnt: (5)
+fid(5): fd(1073741827) fileName(/home/rdonapat/Verilog_Codes/Projects/APB_Master_Mealy/simv.daidir/kdb.elab++/work.lib++/APB_SLA.v.tdc)
+	size(2754) lastModTime(1749224966) curModTime(1749224966)
+	mode(rb)	hot(0) cool(4) pos(0)
+fid(4): fd(1073741826) fileName(/home/rdonapat/Verilog_Codes/Projects/APB_Master_Mealy/simv.daidir/kdb.elab++/work.lib++/APB_MAS.v.tdc)
+	size(2729) lastModTime(1749224966) curModTime(1749224966)
+	mode(rb)	hot(5) cool(3) pos(0)
+fid(3): fd(1073741825) fileName(/home/rdonapat/Verilog_Codes/Projects/APB_Master_Mealy/simv.daidir/kdb.elab++/work.lib++/APB_MS.v.tdc)
+	size(960) lastModTime(1749224966) curModTime(1749224966)
+	mode(rb)	hot(4) cool(2) pos(0)
+fid(2): fd(22) fileName(/home/rdonapat/Verilog_Codes/Projects/APB_Master_Mealy/verdiLog/_swap_0001#11633834#885337)
+	size(0) lastModTime(0) curModTime(1754112666)
+	mode(w+b)	hot(3) cool(1) pos(0)
+fid(1): fd(1073741824) fileName(/home/rdonapat/Verilog_Codes/Projects/APB_Master_Mealy/simv.daidir/kdb.elab++/work.lib++/APB_Testbench.v.tdc)
+	size(1965) lastModTime(1749224966) curModTime(1749224966)
+	mode(rb)	hot(2) cool(0) pos(0)
+fid(0): fd(0) fileName(NULL)
+	mode(NULL)	hot(0) cool(0) pos(0)
+==================================================
+mySelf(0x21b19150) pre(0x2250a190) next((nil))
+version(200506)
+date(Dec  3 2024 20:20:45)

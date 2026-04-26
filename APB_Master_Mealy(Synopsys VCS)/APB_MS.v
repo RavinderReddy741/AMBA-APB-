@@ -1,0 +1,9 @@
+module APB_ms(input pCLK,pRESET,pWRITE_I,pTRANSFER,input [31:0]pWDATA,input [31:0]pADDR,input [3:0]pSTROBE,output pREADY,output [31:0]pRDATA);
+
+wire pSELX,pENABLE,pWRITE;
+wire [3:0] pSTROBE_I;
+wire [31:0] pWDATA_I;
+wire [31:0] pADDR_I;
+APB_slave slave(pCLK,pRESET,pSELX,pENABLE,pWRITE,pSTROBE_I,pWDATA_I,pADDR_I,pRDATA,pREADY);
+Master APB_Master(pTRANSFER,pCLK,pRESET,pWRITE_I,pREADY,pSTROBE,pWDATA,pRDATA,pADDR,pSELX,pENABLE,pWRITE,pSTROBE_I,pWDATA_I,pADDR_I);
+endmodule

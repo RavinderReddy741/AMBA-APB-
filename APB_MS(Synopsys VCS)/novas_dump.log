@@ -1,0 +1,375 @@
+#######################################################################################
+# log primitive debug message of FSDB dumping                                         #
+# This is for R&D to analyze when there are issues happening when FSDB dump           #
+#######################################################################################
+ANF: vcsd_get_serial_mode_status('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vcsd_get_serial_mode_status')
+ANF: vcsd_enable_sva_success_callback('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vcsd_enable_sva_success_callback')
+ANF: vcsd_disable_sva_success_callback('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vcsd_disable_sva_success_callback')
+ANF: vcsd_get_power_scope_name('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vcsd_get_power_scope_name')
+ANF: vcsd_dump_var_vpdg('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vcsd_dump_var_vpdg')
+ANF: vcsd_begin_no_value_var_info('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vcsd_begin_no_value_var_info')
+ANF: vcsd_end_no_value_var_info('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vcsd_end_no_value_var_info')
+ANF: vcsd_remove_xprop_merge_mode_callback('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vcsd_remove_xprop_merge_mode_callback')
+ANF: vhpi_get_cb_info('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhpi_get_cb_info')
+ANF: vhpi_free_handle('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhpi_free_handle')
+ANF: vhpi_fetch_vcsd_handle('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhpi_fetch_vcsd_handle')
+ANF: vhpi_fetch_vpi_handle('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhpi_fetch_vpi_handle')
+ANF: vhpi_has_verilog_parent('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhpi_has_verilog_parent')
+ANF: vhpi_is_verilog_scope('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhpi_is_verilog_scope')
+ANF: scsd_xprop_is_enabled('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: scsd_xprop_is_enabled')
+ANF: scsd_xprop_sig_is_promoted('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: scsd_xprop_sig_is_promoted')
+ANF: scsd_xprop_int_xvalue('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: scsd_xprop_int_xvalue')
+ANF: scsd_xprop_bool_xvalue('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: scsd_xprop_bool_xvalue')
+ANF: scsd_xprop_enum_xvalue('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: scsd_xprop_enum_xvalue')
+ANF: scsd_xprop_register_merge_mode_cb('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: scsd_xprop_register_merge_mode_cb')
+ANF: scsd_xprop_delete_merge_mode_cb('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: scsd_xprop_delete_merge_mode_cb')
+ANF: scsd_xprop_get_merge_mode('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: scsd_xprop_get_merge_mode')
+ANF: scsd_thread_get_info('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: scsd_thread_get_info')
+ANF: scsd_thread_vc_init('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: scsd_thread_vc_init')
+ANF: scsd_master_set_delta_sync_cbk('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: scsd_master_set_delta_sync_cbk')
+ANF: scsd_fgp_get_fsdb_cores('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: scsd_fgp_get_fsdb_cores')
+ANF: scsd_fgp_get_is_cpu_affinity_disabled('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: scsd_fgp_get_is_cpu_affinity_disabled')
+ANF: vhdi_dt_get_type('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_dt_get_type')
+ANF: vhdi_dt_get_key('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_dt_get_key')
+ANF: vhdi_dt_get_vhdl_enum_info('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_dt_get_vhdl_enum_info')
+ANF: vhdi_dt_get_vhdl_physical_info('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_dt_get_vhdl_physical_info')
+ANF: vhdi_dt_get_vhdl_array_info('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_dt_get_vhdl_array_info')
+ANF: vhdi_dt_get_vhdl_record_info('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_dt_get_vhdl_record_info')
+ANF: vhdi_dt_get_vhdl_integer_range_info('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_dt_get_vhdl_integer_range_info')
+ANF: vhdi_def_traverse_module('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_def_traverse_module')
+ANF: vhdi_def_traverse_scope('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_def_traverse_scope')
+ANF: vhdi_def_traverse_variable('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_def_traverse_variable')
+ANF: vhdi_def_get_module_id_by_vhpi('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_def_get_module_id_by_vhpi')
+ANF: vhdi_def_get_handle_by_module_id('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_def_get_handle_by_module_id')
+ANF: vhdi_def_get_variable_info_by_vhpi('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_def_get_variable_info_by_vhpi')
+ANF: vhdi_def_free('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_def_free')
+ANF: vhdi_ist_traverse_scope('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_ist_traverse_scope')
+ANF: vhdi_ist_traverse_variable('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_ist_traverse_variable')
+ANF: vhdi_ist_convert_by_vhpi('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_ist_convert_by_vhpi')
+ANF: vhdi_ist_clone('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_ist_clone')
+ANF: vhdi_ist_free('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_ist_free')
+ANF: vhdi_ist_hash_key('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_ist_hash_key')
+ANF: vhdi_ist_compare('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_ist_compare')
+ANF: vhdi_ist_get_value_addr('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_ist_get_value_addr')
+ANF: vhdi_set_scsd_callback('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_set_scsd_callback')
+ANF: vhdi_cbk_set_force_callback('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_cbk_set_force_callback')
+ANF: vhdi_trigger_init_force('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_trigger_init_force')
+ANF: vhdi_ist_check_scsd_callback('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_ist_check_scsd_callback')
+ANF: vhdi_ist_add_scsd_callback('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_ist_add_scsd_callback')
+ANF: vhdi_ist_remove_scsd_callback('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_ist_remove_scsd_callback')
+ANF: vhdi_ist_get_scsd_user_data('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_ist_get_scsd_user_data')
+ANF: vhdi_add_time_change_callback('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_add_time_change_callback')
+ANF: vhdi_get_real_value_by_value_addr('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_get_real_value_by_value_addr')
+ANF: vhdi_get_64_value_by_value_addr('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_get_64_value_by_value_addr')
+ANF: vhdi_xprop_inst_is_promoted('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_xprop_inst_is_promoted')
+ANF: vdi_ist_convert_by_vhdi('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vdi_ist_convert_by_vhdi')
+ANF: vhdi_ist_get_module_id('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_ist_get_module_id')
+ANF: vhdi_refine_foreign_scope_type('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_refine_foreign_scope_type')
+ANF: vhdi_flush_callback('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_flush_callback')
+ANF: vhdi_set_orig_name('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_set_orig_name')
+ANF: vhdi_set_dump_pt('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_set_dump_pt')
+ANF: vhdi_set_int_subtype('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_set_int_subtype')
+ANF: vhdi_set_fixed_point('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_set_fixed_point')
+ANF: vhdi_get_fsdb_option('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_get_fsdb_option')
+ANF: vhdi_fgp_get_mode('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_fgp_get_mode')
+ANF: vhdi_node_register_composite_var('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_node_register_composite_var')
+ANF: vhdi_node_analysis('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_node_analysis')
+ANF: vhdi_node_id('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_node_id')
+ANF: vhdi_node_ist_check_scsd_callback('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_node_ist_check_scsd_callback')
+ANF: vhdi_node_ist_add_scsd_callback('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_node_ist_add_scsd_callback')
+ANF: vhdi_node_ist_get_value_addr('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_node_ist_get_value_addr')
+ANF: vhdi_enc_def_traverse_module('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_enc_def_traverse_module')
+ANF: vhdi_enc_def_traverse_scope('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_enc_def_traverse_scope')
+ANF: vhdi_enc_def_traverse_variable('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_enc_def_traverse_variable')
+ANF: vhdi_enc_ist_traverse_scope('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_enc_ist_traverse_scope')
+ANF: vhdi_enc_ist_traverse_variable('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_enc_ist_traverse_variable')
+ANF: vhdi_enc_ist_get_module_id('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_enc_ist_get_module_id')
+ANF: vhdi_enc_def_get_handle_by_module_id('/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv: undefined symbol: vhdi_enc_def_get_handle_by_module_id')
+VCS compile option:
+ option[0]: /home/rdonapat/Verilog_Codes/Projects/APB_MS/simv
+ option[1]: -sml=verdi
+ option[2]: +UVM_VERDI_TRACE=UVM_AWARE
+ option[3]: +fsdb+gate=off
+ option[4]: -ucli2Proc
+ option[5]: -ucli
+ option[6]: -licqueue
+ option[7]: -l
+ option[8]: /home/rdonapat/Verilog_Codes/Projects/APB_MS/verdiLog/sim.log
+ option[9]: /home/tools/synopsys/vcs/W-2024.09-SP1/linux64/bin/vcs1
+ option[10]: -Mcc=gcc
+ option[11]: -Mcplusplus=g++
+ option[12]: -Masflags=
+ option[13]: -Mcfl= -pipe -fPIC -O -I/home/tools/synopsys/vcs/W-2024.09-SP1/include 
+ option[14]: -Mxllcflags=
+ option[15]: -Mxcflags= -pipe -fPIC -I/home/tools/synopsys/vcs/W-2024.09-SP1/include
+ option[16]: -Mldflags= -rdynamic 
+ option[17]: -Mout=simv
+ option[18]: -Mamsrun=
+ option[19]: -Mvcsaceobjs=
+ option[20]: -Mobjects= /home/tools/synopsys/vcs/W-2024.09-SP1/linux64/lib/libvirsim.so /home/tools/synopsys/vcs/W-2024.09-SP1/linux64/lib/liberrorinf.so /home/tools/synopsys/vcs/W-2024.09-SP1/linux64/lib/libsnpsmalloc.so /home/tools/synopsys/vcs/W-2024.09-SP1/linux64/lib/libvfs.so 
+ option[21]: -Mexternalobj=
+ option[22]: -Msaverestoreobj=/home/tools/synopsys/vcs/W-2024.09-SP1/linux64/lib/vcs_save_restore_new.o
+ option[23]: -Mcrt0=
+ option[24]: -Mcrtn=
+ option[25]: -Mcsrc=
+ option[26]: -Msyslibs=/home/tools/synopsys/verdi/W-2024.09-SP1//share/PLI/VCS/LINUX64/pli.a -ldl 
+ option[27]: -full64
+ option[28]: -kdb
+ option[29]: -Xufe=2steps
+ option[30]: -kdb=common_elab
+ option[31]: -Xufe=2steps
+ option[32]: -debug_access+all
+ option[33]: +vpi
+ option[34]: +vcsd1
+ option[35]: +itf+/home/tools/synopsys/vcs/W-2024.09-SP1/linux64/lib/vcsdp_lite.tab
+ option[36]: -kdb=common_elab
+ option[37]: -Xufe=2steps
+ option[38]: -kdb=common_elab
+ option[39]: -Xufe=2steps
+ option[40]: -picarchive
+ option[41]: -P
+ option[42]: /home/tools/synopsys/verdi/W-2024.09-SP1//share/PLI/VCS/LINUX64/verdi.tab
+ option[43]: -fsdb
+ option[44]: -gen_obj
+ option[45]: APB_MAS.v
+ option[46]: APB_SLA.v
+ option[47]: APB_MS.v
+ option[48]: APB_Testbench.v
+ option[49]: -load
+ option[50]: /home/tools/synopsys/verdi/W-2024.09-SP1//share/PLI/VCS/LINUX64/libnovas.so:FSDBDumpCmd
+Chronologic Simulation VCS Release W-2024.09-SP1_Full64
+Linux 4.18.0-553.33.1.el8_10.x86_64 #1 SMP Thu Dec 19 14:28:01 UTC 2024 x86_64
+CPU cores: 56
+Limit information:
+======================================
+cputime		unlimited
+filesize		unlimited
+datasize		unlimited
+stacksize		8194 kbytes
+coredumpsize		0 kbytes
+memoryuse		unlimited
+vmemoryuse		unlimited
+descriptors		1024
+memorylocked		64 kbytes
+maxproc		512799
+======================================
+(Special)Runtime environment variables:
+
+Runtime environment variables:
+LC_ALL=C
+LD_LIBRARY_PATH=/usr/share/lsf/10.1/linux2.6-glibc2.3-x86_64/lib
+LS_COLORS=rs=0:di=38;5;33:ln=38;5;51:mh=00:pi=40;38;5;11:so=38;5;13:do=38;5;5:bd=48;5;232;38;5;11:cd=48;5;232;38;5;3:or=48;5;232;38;5;9:mi=01;05;37;41:su=48;5;196;38;5;15:sg=48;5;11;38;5;16:ca=48;5;196;38;5;226:tw=48;5;10;38;5;16:ow=48;5;10;38;5;21:st=48;5;21;38;5;15:ex=38;5;40:*.tar=38;5;9:*.tgz=38;5;9:*.arc=38;5;9:*.arj=38;5;9:*.taz=38;5;9:*.lha=38;5;9:*.lz4=38;5;9:*.lzh=38;5;9:*.lzma=38;5;9:*.tlz=38;5;9:*.txz=38;5;9:*.tzo=38;5;9:*.t7z=38;5;9:*.zip=38;5;9:*.z=38;5;9:*.dz=38;5;9:*.gz=38;5;9:*.lrz=38;5;9:*.lz=38;5;9:*.lzo=38;5;9:*.xz=38;5;9:*.zst=38;5;9:*.tzst=38;5;9:*.bz2=38;5;9:*.bz=38;5;9:*.tbz=38;5;9:*.tbz2=38;5;9:*.tz=38;5;9:*.deb=38;5;9:*.rpm=38;5;9:*.jar=38;5;9:*.war=38;5;9:*.ear=38;5;9:*.sar=38;5;9:*.rar=38;5;9:*.alz=38;5;9:*.ace=38;5;9:*.zoo=38;5;9:*.cpio=38;5;9:*.7z=38;5;9:*.rz=38;5;9:*.cab=38;5;9:*.wim=38;5;9:*.swm=38;5;9:*.dwm=38;5;9:*.esd=38;5;9:*.jpg=38;5;13:*.jpeg=38;5;13:*.mjpg=38;5;13:*.mjpeg=38;5;13:*.gif=38;5;13:*.bmp=38;5;13:*.pbm=38;5;13:*.pgm=38;5;13:*.ppm=38;5;13:*.tga=38;5;13:*.xbm=38;5;13:*.xpm=38;5;13:*.tif=38;5;13:*.tiff=38;5;13:*.png=38;5;13:*.svg=38;5;13:*.svgz=38;5;13:*.mng=38;5;13:*.pcx=38;5;13:*.mov=38;5;13:*.mpg=38;5;13:*.mpeg=38;5;13:*.m2v=38;5;13:*.mkv=38;5;13:*.webm=38;5;13:*.ogm=38;5;13:*.mp4=38;5;13:*.m4v=38;5;13:*.mp4v=38;5;13:*.vob=38;5;13:*.qt=38;5;13:*.nuv=38;5;13:*.wmv=38;5;13:*.asf=38;5;13:*.rm=38;5;13:*.rmvb=38;5;13:*.flc=38;5;13:*.avi=38;5;13:*.fli=38;5;13:*.flv=38;5;13:*.gl=38;5;13:*.dl=38;5;13:*.xcf=38;5;13:*.xwd=38;5;13:*.yuv=38;5;13:*.cgm=38;5;13:*.emf=38;5;13:*.ogv=38;5;13:*.ogx=38;5;13:*.aac=38;5;45:*.au=38;5;45:*.flac=38;5;45:*.m4a=38;5;45:*.mid=38;5;45:*.midi=38;5;45:*.mka=38;5;45:*.mp3=38;5;45:*.mpc=38;5;45:*.ogg=38;5;45:*.ra=38;5;45:*.wav=38;5;45:*.oga=38;5;45:*.opus=38;5;45:*.spx=38;5;45:*.xspf=38;5;45:
+HOSTTYPE=x86_64-linux
+SYS_INST_DIR=/home/tools/synopsys/verdi/W-2024.09-SP1
+XDG_MENU_PREFIX=gnome-
+LANG=C
+NOVAS_LICENSE_QUEUE=1
+DISPLAY=:13
+VNCDESKTOP=task001.taskit:13 (rdonapat)
+VCS_STACK_EXEC=true
+COLORTERM=truecolor
+SNPSLMD_LICENSE_FILE=27020@task001.taskit
+VENDOR=unknown
+MACHTYPE=x86_64
+LSF_SERVERDIR=/usr/share/lsf/10.1/linux2.6-glibc2.3-x86_64/etc
+MODULES_USE_COMPAT_VERSION=0
+SSH_AUTH_SOCK=/tmp/ssh-yCnD0KbBHqWU/agent.11364
+S_COLORS=auto
+OSTYPE=linux
+LSF_ENVDIR=/usr/share/lsf/conf
+XDG_SESSION_ID=1
+NOVAS_SYNC_MOTIF_DISP=
+MODULES_CMD=/usr/share/Modules/libexec/modulecmd.tcl
+USER=rdonapat
+VCS_EXEC_DONE=1
+GNOME_TERMINAL_SCREEN=/org/gnome/Terminal/screen/87bf33bc_d53a_463b_9860_e7c392d1cfdd
+GROUP=cohort1
+PWD=/home/rdonapat/Verilog_Codes/Projects/APB_MS
+SSH_ASKPASS=/usr/libexec/openssh/gnome-ssh-askpass
+HOME=/home/rdonapat
+SSH_AGENT_PID=11554
+HOST=task001.taskit
+VCS_PATHMAP_PRELOAD_DONE=1
+XNLSPATH=/home/tools/synopsys/verdi/W-2024.09-SP1/etc/access/nls
+QT_VERDI_ENABLE_ICON_MEM_FIX=1
+VERDI_QT5=1
+LSF_BINDIR=/usr/share/lsf/10.1/linux2.6-glibc2.3-x86_64/bin
+GJS_DEBUG_OUTPUT=stderr
+SPS_XFONT_PATH=/home/tools/synopsys/verdi/W-2024.09-SP1/XFont
+LOADEDMODULES=
+MAIL=/var/spool/mail/rdonapat
+LD_NOVERSION=1
+QT_PLUGIN_PATH=/home/tools/synopsys/verdi/W-2024.09-SP1/platform/LINUXAMD64/lib/Qt5/plugins
+VTE_VERSION=5204
+TERM=xterm-256color
+SHELL=/usr/bin/tcsh
+QT_IM_MODULE=ibus
+XMODIFIERS=@im=none
+XDG_CURRENT_DESKTOP=GNOME
+GNOME_TERMINAL_SERVICE=:1.762
+VERDI_HOME=/home/tools/synopsys/verdi/W-2024.09-SP1/
+SHLVL=6
+MANPATH=/usr/share/lsf/10.1/man:/usr/share/man:
+SPS_FONT_PATH=/home/tools/synopsys/verdi/W-2024.09-SP1/font
+LSF_LIBDIR=/usr/share/lsf/10.1/linux2.6-glibc2.3-x86_64/lib
+MODULEPATH=/etc/scl/modulefiles:/etc/scl/modulefiles:/usr/share/Modules/modulefiles:/etc/modulefiles:/usr/share/modulefiles
+VERDI_ORIGNAL_LD_LIBRARY_PATH=/usr/share/lsf/10.1/linux2.6-glibc2.3-x86_64/lib
+GNOME_DESKTOP_SESSION_ID=this-is-deprecated
+LOGNAME=rdonapat
+DBUS_SESSION_BUS_ADDRESS=unix:abstract=/tmp/dbus-D4mKEmD1UK,guid=d730afa753267bb35901a697680ee698
+SPS_RGB_PATH=/home/tools/synopsys/verdi/W-2024.09-SP1/etc/rgb
+XDG_RUNTIME_DIR=/run/user/0
+MODULEPATH_modshare=/usr/share/Modules/modulefiles:2:/etc/modulefiles:2:/usr/share/modulefiles:2
+MALLOC_ARENA_MAX=1
+PATH=/home/tools/synopsys/verdi/W-2024.09-SP1/bin:/home/tools/synopsys/syn/W-2024.09-SP1/bin:/home/tools/synopsys/vcs/W-2024.09-SP1/bin:/home/tools/synopsys/spyglass/W-2024.09-SP1/SPYGLASS_HOME/bin:/home/tools/synopsys/fm/W-2024.09-SP1/bin:/usr/share/lsf/10.1/linux2.6-glibc2.3-x86_64/etc:/usr/share/lsf/10.1/linux2.6-glibc2.3-x86_64/bin:/home/tools/synopsys/verdi/W-2024.09-SP1/bin:/home/tools/synopsys/syn/W-2024.09-SP1/bin:/home/tools/synopsys/vcs/W-2024.09-SP1/bin:/home/tools/synopsys/spyglass/W-2024.09-SP1/SPYGLASS_HOME/bin:/home/tools/synopsys/fm/W-2024.09-SP1/bin:/usr/share/Modules/bin:/usr/bin:/bin
+VCS_HOME=/home/tools/synopsys/vcs/W-2024.09-SP1
+DEBUGINFOD_URLS=https://debuginfod.centos.org/
+MODULESHOME=/usr/share/Modules
+HISTSIZE=2000
+GJS_DEBUG_TOPICS=JS ERROR;JS LOG
+HISTFILESIZE=2000
+SYS_PROG_NAME=verdi
+NOVASHLPPATH=/home/tools/synopsys/verdi/W-2024.09-SP1/doc
+LESSOPEN=||/usr/bin/lesspipe.sh %s
+NOVAS_LC_ALL=C
+SIMV_DAIDIR_PATH=/home/rdonapat/Verilog_Codes/Projects/APB_MS/./simv.daidir
+NOVAS_SIGNAL_BASE_EXTRACTION=1
+SIGNAL_BASE_EXTRACTION=1
+NOVAS_VERDI_SVTB_BETA=1
+VERDI_SVTB_BETA=1
+NOVAS_VERDI_SVTB_ALPHA=1
+VERDI_SVTB_ALPHA=1
+NOVAS_VERDI_TB_HT=1
+VERDI_TB_HT=1
+NOVAS_WAVE_REDRAW_ALLVC=1
+WAVE_REDRAW_ALLVC=1
+NOVAS_TCL_LIBRARY=/home/tools/synopsys/verdi/W-2024.09-SP1/etc/access/tcl86_library
+TCL_LIBRARY=/home/tools/synopsys/verdi/W-2024.09-SP1/etc/access/tcl86_library
+XKEYSYMDB=/home/tools/synopsys/verdi/W-2024.09-SP1/etc/access/XKeysymDB2.1
+XLOCALEDIR=/home/tools/synopsys/verdi/W-2024.09-SP1/etc/access/locale
+QTWEBENGINE_CHROMIUM_FLAGS=--log-level=3
+QT_XCB_NO_XI2=1
+QT_SCALE_FACTOR=1
+NOVAS_SIGNAL_BASED_BA=0
+SIGNAL_BASED_BA=0
+SNPS_SIM_DEFAULT_GUI=verdi
+FSDB_FILE=/home/rdonapat/Verilog_Codes/Projects/APB_MS/inter.fsdb
+VCS_UCLI_STDIN_BLOCKING=1
+FSDB_VHDL_PROTECTED=1
+FSDB_RD_IR_ENABLE=1
+FSDB_SVA_STATUS=1
+VCS_STOP_SAFE=1
+DVE_SIM_SELECT_LOOP=on
+SNPS_VCPS_QUEUE_LICENSE=1
+FLEXLM_BORROWFILE=/home/rdonapat/.task001.taskit-borrow.txt
+Runtime command line arguments:
+argv[0]=/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv
+argv[1]=-sml=verdi
+argv[2]=+UVM_VERDI_TRACE=UVM_AWARE
+argv[3]=+fsdb+gate=off
+argv[4]=-ucli2Proc
+argv[5]=-ucli
+argv[6]=-licqueue
+argv[7]=-l
+argv[8]=/home/rdonapat/Verilog_Codes/Projects/APB_MS/verdiLog/sim.log
+274 profile - 100
+          CPU/Mem usage: 0.010 sys,  0.050 user,  222.76M mem
+275 Elapsed time:    0:00:01    Fri Jun  6 21:17:13 2025
+276 User CPU time used: 0 seconds
+277 System CPU time used: 0 seconds
+278 pliAppInit
+279 ndpGetenv(FSDB_FILE): /home/rdonapat/Verilog_Codes/Projects/APB_MS/inter.fsdb
+280 ndpGetenv(FSDB_SVA_STATUS): 1
+281 ndpGetenv(FSDB_VHDL_PROTECTED): 1
+282 FSDB_GATE & FSDB_RTL is disabled.
+283 FSDB_DYNAMIC_ALIAS is enabled.
+284 libnuma.so open fail. libnuma.so: cannot open shared object file: No such file or directory
+285 FSDB NUMA optimize not available.
+286 FSDB_PACKED_MODE is enabled.
+287 FSDB_GATE_PACKED is enabled.
+288 [SC]Init: MemoryConsumed=0.00MB ElapsedTime=0hour 0min. 0sec.
+289 FSDB_REDUCE_VC_MEM is enabled.
+290 FSDB_ALIAS_ARRAY_ELEM is set to 4294967295.
+291 Enable Parallel Dumping.
+292 pliAppMiscSet: New Sim Round
+293 pliEntryInit
+294 LIBSSCORE=found /home/tools/synopsys/verdi/W-2024.09-SP1//share/PLI/lib/LINUXAMD64/libsscore_vcs202409.so through $NOVAS_HOME setting.
+295 FSDB Dumper for VCS, Release Verdi_W-2024.09-SP1, Linux x86_64/64bit, 11/30/2024
+296 (C) 1996 - 2024 by Synopsys, Inc.
+297 sps_tcl_fsdbDumpfile_main at 0
+298 argv[0]: /home/rdonapat/Verilog_Codes/Projects/APB_MS/inter.fsdb
+299 *Verdi* : Create FSDB file '/home/rdonapat/Verilog_Codes/Projects/APB_MS/inter.fsdb'
+300 [spi_vcs_vd_ppi_create_root]: no upf option
+301 DUMPER_MEMORY_REDUCTION is enabled.
+302 compile option from '/home/rdonapat/Verilog_Codes/Projects/APB_MS/simv.daidir/vcs_rebuild'.
+303   "vcs '-full64' 'APB_MAS.v' 'APB_SLA.v' 'APB_MS.v' 'APB_Testbench.v' '-kdb' '-debug_access+all' 2>&1"
+304 sps_tcl_fsdbDumpflush_vd_main at 0 : N/A(0)
+305 *Verdi* : Flush all FSDB Files at 0 s.
+306 sps_tcl_fsdbDumpflush_vd_main at 0 : N/A(0)
+307 *Verdi* : Flush all FSDB Files at 0 s.
+308 sps_call_fsdbDumpfile_main at 0 : APB_Testbench.v(54)
+309 argv[0]: (RTL.fsdb)
+310 *Verdi* WARNING: Env/runtime option has specified fsdbfile name as "/home/rdonapat/Verilog_Codes/Projects/APB_MS/inter.fsdb". Fsdbfile name in task "RTL.fsdb" is ignored.
+311 DVDI_is_vir_unload_enabled is enable
+312 FSDB_VCS_ENABLE_NATIVE_VC is enable
+313 FSDB_VCS_ENABLE_MEMORY_NATIVE_VC is enabled
+314 sps_call_fsdbDumpvars_vd_main at 0 : APB_Testbench.v(55)
+315 *Verdi* : Begin traversing the scopes, layer (0).
+316 *Verdi* : End of traversing.
+317 pliAppHDL_DumpVarComplete traverse var: profile - 
+          CPU/Mem usage: 0.040 sys,  0.090 user,  323.00M mem
+                   incr: 0.000 sys,  0.000 user,  4.74M mem
+                   accu: 0.000 sys,  0.000 user,  4.74M mem
+              accu incr: 0.000 sys,  0.000 user,  4.74M mem
+
+          Count usage: 61 var,  40 idcode,  40 callback
+                 incr: 61 var,  40 idcode,  40 callback
+                 accu: 61 var,  40 idcode,  40 callback
+            accu incr: 61 var,  40 idcode,  40 callback
+318 Idcode  0 - bc1:0  mda:0
+319 Elapsed time:    0:00:08    Fri Jun  6 21:17:20 2025
+320 User CPU time used: 0 seconds
+321 System CPU time used: 0 seconds
+322 pliAppHDL_DumpVarComplete: profile - 
+          CPU/Mem usage: 0.040 sys,  0.090 user,  323.00M mem
+                   incr: 0.000 sys,  0.000 user,  0.00M mem
+                   accu: 0.000 sys,  0.000 user,  4.74M mem
+              accu incr: 0.000 sys,  0.000 user,  0.00M mem
+
+          Count usage: 61 var,  40 idcode,  40 callback
+                 incr: 0 var,  0 idcode,  0 callback
+                 accu: 61 var,  40 idcode,  40 callback
+            accu incr: 0 var,  0 idcode,  0 callback
+323 Idcode  0 - bc1:0  mda:0
+324 Elapsed time:    0:00:08    Fri Jun  6 21:17:20 2025
+325 User CPU time used: 0 seconds
+326 System CPU time used: 0 seconds
+327 sps_tcl_fsdbDumpflush_vd_main at 19560 : N/A(0)
+328 *Verdi* : Flush all FSDB Files at 19,560 s.
+329 End of simulation at 19560
+330 Memory usage: 324.952 M
+331 Maximum resident set size: 147 MB
+332 Hard page faults: 2
+333 Soft page faults: 5115
+334 Elapsed time:    0:04:16    Fri Jun  6 21:21:28 2025
+335 User CPU time used: 0 seconds
+336 System CPU time used: 0 seconds
+337 Begin FSDB profile info:
+338 FSDB Writer : bc1(4044) bcn(2733) mtf/stf(0/3)
+FSDB Writer elapsed time : flush(0.005908) io wait(0.000000) theadpool wait(0.000000)
+FSDB Writer cpu time : MT Compression : 0
+339 End FSDB profile info
+340 FSDB closed. Name: /home/rdonapat/Verilog_Codes/Projects/APB_MS/inter.fsdb Size: 10936
+341 Parallel profile     - ProducerThread:1 ConsumerThread:1 Buffer:64MB
+342                      - BlockUsed:1 Acquire:0 BufferUsed:103582
+343                      - Flush:7 Expand:0 ProducerWait:0 ConsumerWait:0
+344                      - MainProducerTime:0.568874278 TotalConsumerTime:0.000000000
+345                      - ElapsedTime:255.810135000
+346 Producer   0 profile - BlockUsed:3 Acquire:0 BufferUsed:103582
+347 Consumer   0 profile - Affinity:-1 CPUTime:0.000000000 LifeTime:0.000000000 (-nan%)
+348                      - BlockUsed:3 Acquire:0 BufferUsed:103582
+349 SimExit
+350 Elapsed time:    0:04:16    Fri Jun  6 21:21:28 2025
+351 User CPU time used: 0 seconds
+352 System CPU time used: 0 seconds
+353 Sim process exit

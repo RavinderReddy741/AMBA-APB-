@@ -1,0 +1,225 @@
+Command Line: /home/tools/synopsys/verdi/W-2024.09-SP1/platform/LINUXAMD64/bin/Novas -ssf inter.fsdb
+uname(Linux task001.taskit 4.18.0-553.33.1.el8_10.x86_64 #1 SMP Thu Dec 19 14:28:01 UTC 2024 x86_64)
+type= DS_SIGNAL element= 20 field= 2
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG pTRANSFER
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG pCLK
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG pRESET
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG pWRITE_I
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG pREADY
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG pSTROBE_I[3:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG pWDATA_I[31:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG pRDATA[31:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG pADDR_I[31:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG pSELx
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG pENABLE
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG pWRITE
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG pSTROBE[3:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG pWDATA[31:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG pADDR[31:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG IDLE[1:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG SETUP[1:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG ACCESS[1:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG next_state[1:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG APB_Master
+VERILOG state[1:0]
+-----
+second field= signal
+type= DS_STRING
+pTRANSFER pCLK pRESET pWRITE_I pREADY pSTROBE_I[3:0] pWDATA_I[31:0] pRDATA[31:0] pADDR_I[31:0] pSELx pENABLE pWRITE pSTROBE[3:0] pWDATA[31:0] pADDR[31:0] IDLE[1:0] SETUP[1:0] ACCESS[1:0] next_state[1:0] state[1:0]
+type= DS_SIGNAL element= 16 field= 2
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG slave
+VERILOG pCLK
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG slave
+VERILOG pRESETn
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG slave
+VERILOG pSELX
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG slave
+VERILOG pENABLE
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG slave
+VERILOG pWRITE
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG slave
+VERILOG pSTROBE[3:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG slave
+VERILOG pWDATA[31:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG slave
+VERILOG pADDR[31:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG slave
+VERILOG pRDATA[31:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG slave
+VERILOG pREADY
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG slave
+VERILOG IDLE[1:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG slave
+VERILOG SETUP[1:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG slave
+VERILOG ACCESS[1:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG slave
+VERILOG next_state[1:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG slave
+VERILOG state[1:0]
+-----
+second field= signal
+VERILOG apb_ms_tb
+VERILOG dut
+VERILOG slave
+VERILOG memory[31:0]
+-----
+second field= signal
+type= DS_STRING
+pCLK pRESETn pSELX pENABLE pWRITE pSTROBE[3:0] pWDATA[31:0] pADDR[31:0] pRDATA[31:0] pREADY IDLE[1:0] SETUP[1:0] ACCESS[1:0] next_state[1:0] state[1:0] memory[31:0]
+au time 18301.022128 55.547557 32.037811 delta 314744832 314744832 total 1333321728 1333321728

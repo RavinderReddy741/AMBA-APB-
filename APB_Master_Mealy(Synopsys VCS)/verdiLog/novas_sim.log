@@ -1,0 +1,26 @@
+Invoking simulator...
+
+./simv -sml=verdi +UVM_VERDI_TRACE=UVM_AWARE +fsdb+gate=off -ucli2Proc -ucli -licqueue
+debImport "-i" "-simflow" "-dbdir" "./simv.daidir"
+*Verdi* Loading libsscore_vcs202409.so
+
+*Verdi* : Enable RPC Server(2279708)
+
+srcTBInvokeSim
+Chronologic VCS simulator copyright 1991-2024
+Contains Synopsys proprietary information.
+Compiler version W-2024.09-SP1_Full64; Runtime version W-2024.09-SP1_Full64;  Jun  6 21:19 2025
+Information: Term was not able to be set up using xterm-256color. Using "xterm" by default instead. (CLE-10)
+Verdi>run
+*Verdi* WARNING: Env/runtime option has specified fsdbfile name as "/home/rdonapat/Verilog_Codes/Projects/APB_Master_Mealy/inter.fsdb". Fsdbfile name in task "RTL.fsdb" is ignored.
+*Verdi* : Begin traversing the scopes, layer (0).
+*Verdi* : End of traversing.
+$finish called from file "APB_Testbench.v", line 23.
+$finish at simulation time                 1180
+Simulation complete, time is 1180.
+APB_Testbench.v, 23 : 	$finish();
+           V C S   S i m u l a t i o n   R e p o r t 
+Time: 1180
+CPU Time:      0.440 seconds;       Data structure size:   0.0Mb
+Fri Jun  6 21:21:16 2025
+debExit

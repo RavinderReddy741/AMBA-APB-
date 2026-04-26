@@ -1,0 +1,19 @@
+SpyGlass Predictive Analyzer(R) - SpyGlass_vW-2024.09-SP1
+All Rights Reserved. Use, disclosure or duplication 
+without prior written permission of Synopsys Inc. is prohibited.
+Technical support: email spyglass_support@synopsys.com 
+
+Creating 'html' reports using config file '/tmp/config_666547'
+##cwd         : /home/rdonapat/Verilog_Codes/Projects/APB_Master_Slave
+##system      : Linux task001.taskit 4.18.0-553.33.1.el8_10.x86_64 #1 SMP Thu Dec 19 14:28:01 UTC 2024 x86_64 x86_64 x86_64 GNU/Linux
+##Date & Time : Thu Apr 24 15:02:22 2025
+Checkout 'dashboard' license at Thu Apr 24 15:02:22 2025 
+Checkout 'dashboard' license completed at Thu Apr 24 15:02:22 2025 
+Generating HTML report started at Thu Apr 24 15:02:22 2025 
+WARNING: HTML Report creation failed as no executed goal found 
+Checkin 'dashboard' license at Thu Apr 24 15:02:22 2025 
+----------------------------------------------------------------
+Report 'html' creation failed.
+----------------------------------------------------------------
+
+SpyGlass Exit Code 7
